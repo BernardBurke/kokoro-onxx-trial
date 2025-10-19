@@ -1,0 +1,7 @@
+[user]
+  email = ben@bernard.francis.burke@gmail.com
+  name = "Ben Burke"
+
+[url "github.com-personal"] 
+  insteadOf = git@github.com
+
