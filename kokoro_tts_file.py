@@ -126,7 +126,8 @@ if __name__ == "__main__":
 
     # --- Determine Output Filename ---
     base_name, _ = os.path.splitext(args.input_file)
-    output_path = base_name + ".m4a"
+    # MODIFIED LINE HERE:
+    output_path = f"{base_name}_{args.voice}.m4a"
 
     # --- Run Main Function ---
     print(f"Input file: {args.input_file}")
