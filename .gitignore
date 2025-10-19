@@ -22,6 +22,9 @@ espeak-ng-data/
 *.m4a
 *.npz
 *.bin
+*.onnx
+*.bin
 
 # Virtual environments
 .venv
+kokoro-onnx/
